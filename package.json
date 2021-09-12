@@ -1,0 +1,24 @@
+{
+  "name": "testing-graphjs",
+  "version": "1.0.0",
+  "description": "learning graphjs using MERN stack for ASD",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rickyfelix19/testing-graphjs.git"
+  },
+  "author": "Ricky Felix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rickyfelix19/testing-graphjs/issues"
+  },
+  "homepage": "https://github.com/rickyfelix19/testing-graphjs#readme",
+  "dependencies": {
+    "chart.js": "^3.5.1",
+    "react-bootstrap": "^1.6.3",
+    "react-chartjs-2": "^3.0.4"
+  }
+}

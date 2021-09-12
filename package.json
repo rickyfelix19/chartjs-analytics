@@ -20,5 +20,6 @@
     "chart.js": "^3.5.1",
     "react-bootstrap": "^1.6.3",
     "react-chartjs-2": "^3.0.4"
-  }
+  },
+  "devDependencies": {}
 }

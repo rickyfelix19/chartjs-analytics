@@ -9,7 +9,10 @@
 
 ## About <a name = "about"></a>
 
-A repo to learn how to use graphJS and connect them together to ReactJS using REST API
+A repo to learn:
+
+- how to use graphJS and connect them together to ReactJS using REST API
+- cypress
 
 ## Getting Started <a name = "getting_started"></a>
 
@@ -22,6 +25,7 @@ To make is as similar to my current assignment, `react-bootstrap` is needed
 - `chart-js`
 - `react-chartjs-2`
 - `create-react-app`
+- `cypress`
 
 ```
 Give examples

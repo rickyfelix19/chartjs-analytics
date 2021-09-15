@@ -1,4 +1,4 @@
-# testing-graphjs
+# testig-chartjs
 
 ## Table of Contents
 

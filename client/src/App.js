@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import Graphs from './components/Graphs/Graphs';
+import Graphs from './pages/Graphs';
 
 function App() {
   return (
@@ -14,9 +14,7 @@ function App() {
           <u style={{ color: 'lightblue' }}>Learn React</u>
         </p>
       </header>
-      <div>
-        <Graphs />
-      </div>
+      <div></div>
     </div>
   );
 }

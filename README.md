@@ -1,4 +1,4 @@
-# testing-graphjs
+# chartjs-analytics
 
 ## Table of Contents
 
@@ -12,7 +12,8 @@
 A repo to learn:
 
 - how to use graphJS and connect them together to ReactJS using REST API
-- cypress
+- cypress for testing
+- to make things easier, i use kaggle datasets to fetch the data and connect it to frontend
 
 ## Getting Started <a name = "getting_started"></a>
 
@@ -21,6 +22,8 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 
 To make is as similar to my current assignment, `react-bootstrap` is needed
+
+Packages to use:
 
 - `chart-js`
 - `react-chartjs-2`

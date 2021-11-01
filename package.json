@@ -1,5 +1,5 @@
 {
-  "name": "testing-graphjs",
+  "name": "chartjs-analytics",
   "version": "1.0.0",
   "description": "learning graphjs using MERN stack for ASD",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rickyfelix19/testing-graphjs.git"
+    "url": "git+https://github.com/rickyfelix19/chartjs-analytics.git"
   },
   "author": "Ricky Felix",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rickyfelix19/testing-graphjs/issues"
+    "url": "https://github.com/rickyfelix19/chartjs-analytics/issues"
   },
-  "homepage": "https://github.com/rickyfelix19/testing-graphjs#readme",
+  "homepage": "https://github.com/rickyfelix19/chartjs-analytics#readme",
   "devDependencies": {
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
@@ -24,5 +24,8 @@
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0"
+  },
+  "dependencies": {
+    "concurrently": "^6.3.0"
   }
 }

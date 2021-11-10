@@ -1,6 +1,6 @@
 // import logo from './logo.svg';
 import './App.css';
-import Graphs from './pages/Graphs';
+// import Graphs from './pages/Graphs';
 
 function App() {
   return (

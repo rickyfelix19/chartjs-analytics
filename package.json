@@ -1,29 +1,33 @@
 {
-  "name": "chartjs-analytics",
+  "name": "restaurant-SAD",
   "version": "1.0.0",
-  "description": "learning graphjs using MERN stack for ASD",
+  "description": "restaurant SAD",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --fix main.js",
+    "format": "prettier -w ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rickyfelix19/chartjs-analytics.git"
+    "url": "git+https://github.com/rickyfelix19/restaurant-SAD.git"
   },
   "author": "Ricky Felix",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rickyfelix19/chartjs-analytics/issues"
+    "url": "https://github.com/rickyfelix19/restaurant-SAD/issues"
   },
-  "homepage": "https://github.com/rickyfelix19/chartjs-analytics#readme",
+  "homepage": "https://github.com/rickyfelix19/restaurant-SAD#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.3.1",
+    "@typescript-eslint/parser": "^5.3.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-plugin-cypress": "^2.11.3",
-    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-import": "^2.25.3",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.25.1",
-    "eslint-plugin-react-hooks": "^4.2.0"
+    "eslint-plugin-react": "^7.27.0",
+    "eslint-plugin-react-hooks": "^4.3.0"
   },
   "dependencies": {
     "concurrently": "^6.3.0"

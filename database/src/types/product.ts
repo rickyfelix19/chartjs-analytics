@@ -1,7 +1,6 @@
 import { Document } from 'mongoose';
 
-export interface product extends Document {
-  _id: String;
+export interface productTypes extends Document {
   ProductName: String;
   ProductQuantity: Number;
   ProductPrice: String;

@@ -1,7 +1,6 @@
 import { Document } from 'mongoose';
 
-export interface inventoryOrder extends Document {
-  _id: string;
+export interface inventoryOrderTypes extends Document {
   UserID: string;
   ProductList: Array<string>;
 }

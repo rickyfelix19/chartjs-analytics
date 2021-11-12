@@ -1,7 +1,6 @@
 import { Document } from 'mongoose';
 
-export interface User extends Document {
-  _id: String;
+export interface creditCardTypes extends Document {
   Brand: String;
   Email: String;
   CCName: String;

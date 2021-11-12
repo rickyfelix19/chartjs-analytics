@@ -1,7 +1,6 @@
 import { Document } from 'mongoose';
 
-export interface takeawayOrder extends Document {
-  _id: string;
+export interface takeawayOrderTypes extends Document {
   UserID: string;
   TakeawayList: Array<string>;
 }

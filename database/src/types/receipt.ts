@@ -1,7 +1,6 @@
 import { Document } from 'mongoose';
 
-export interface receipt extends Document {
-  _id: string;
+export interface receiptTypes extends Document {
   OrderID: string;
   OrderType: string;
   Name: string;

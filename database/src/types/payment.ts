@@ -1,7 +1,6 @@
 import { Document } from 'mongoose';
 
-export interface payment extends Document {
-  _id: string;
+export interface paymentTypes extends Document {
   UserID: string;
   CreditCardID: string;
   OrderType: string;

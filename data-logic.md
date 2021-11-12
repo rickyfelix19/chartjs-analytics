@@ -6,6 +6,25 @@ a Restaurant Admin / Staff -> Accessibility, Security, Privacy
 b Registered Customer -> Accessibility, Security, Privacy
 c Guests -> Accessibility, Security
 
+### Release 0:
+
+- User Requirements
+- Architecture(s)
+- Choose Stack
+- Choose Deployments
+
+### Each Releases do Iteration of:
+
+- Database
+- API Testing
+
+- Design
+- Frontend
+- Combine
+
+- Security
+- Deployment
+
 ### Release 1
 
 - Login Management System -> abc

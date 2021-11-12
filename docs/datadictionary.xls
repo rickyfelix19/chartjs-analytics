@@ -1,0 +1,50 @@
+Name	Type	Value	Description
+1. User			
+_id	String		
+FirstName	String		
+LastName	String		
+PhoneNumber			
+UserName	String		
+Password	String		
+UserType	String		"Guest, Customer, Staff"
+			
+2.Credit Card			
+_id	String		
+Brand	String		Credit Card Brand / PayPal
+Email	String		
+CCName	String		
+CCNumber	String		
+CCDate	Date		
+			
+3. Product			
+_id	String		
+ProductName	String		
+ProductQuantity	Number		
+Available	Boolean		In Stock / Out Stock
+Limited	Boolean		Seasonal / Limited / Perm
+			
+4. Inventory Order			
+_id	String		
+UserID	String		
+ProductList	Array		Array of Products + Array of Numbers
+			
+5. Takeaway Order			
+_id	String		
+UserID	String		
+TakeawayList	Array		Array of Products + Array of Numbers
+			
+6. Payment			
+_id	String		
+UserID	String		
+CreditCardID	String		
+OrderType	String		Invetory / Takeaway
+OrderList	Array		Return from Takeaay or Inventory Array
+TotalPrice	String		
+			
+7. Receipt			
+_id	String		
+OrderID	String		
+OrderType	String		Inventory / Takeaway
+Name	String		
+Email	String		
+Phone	String		

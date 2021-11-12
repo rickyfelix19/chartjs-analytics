@@ -3,7 +3,7 @@ Name	Type	Value	Description
 _id	String		
 FirstName	String		
 LastName	String		
-PhoneNumber			
+PhoneNumber String
 UserName	String		
 Password	String		
 UserType	String		"Guest, Customer, Staff"
@@ -19,7 +19,8 @@ CCDate	Date
 3. Product			
 _id	String		
 ProductName	String		
-ProductQuantity	Number		
+ProductQuantity	Number
+ProductPrice	String
 Available	Boolean		In Stock / Out Stock
 Limited	Boolean		Seasonal / Limited / Perm
 			
@@ -37,8 +38,8 @@ TakeawayList	Array		Array of Products + Array of Numbers
 _id	String		
 UserID	String		
 CreditCardID	String		
-OrderType	String		Invetory / Takeaway
-OrderList	Array		Return from Takeaay or Inventory Array
+OrderType	String		Inventory / Takeaway
+OrderList	Array		Return from Takeaway or Inventory Array
 TotalPrice	String		
 			
 7. Receipt			
